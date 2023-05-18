@@ -1,5 +1,5 @@
 function hola(nombre) {
-    return "hola " + (nombre) + "!";
+    return (`Hola ${nombre}!`);
 }
 
 console.log(hola("Pedro"));

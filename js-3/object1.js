@@ -16,8 +16,8 @@ for (let i = 0; i < llaves.length; i++) {
     console.log(llave + ": " + pedro[llave]);
 }
 
-function saluda(nombre) {
-    return (`Hola, me llamo ${nombre}`);
+pedro.saluda = function () {
+    return (`Hola, me llamo ${this.nombre}`);
 }
 
-console.log(saluda("Pedro Perez"));
+console.log(pedro.saluda("Pedro Perez"));
